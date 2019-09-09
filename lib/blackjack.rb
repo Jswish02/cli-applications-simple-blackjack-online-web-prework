@@ -1,5 +1,5 @@
 def welcome
-  # code #welcome here
+ put # code #welcome here
 end
 
 def deal_card
@@ -26,8 +26,8 @@ def initial_round
   # code #initial_round here
 end
 
-def hit?
-  # code hit? here
+def hit (h)
+ h= (1-11) # code hit? here
 end
 
 def invalid_command
